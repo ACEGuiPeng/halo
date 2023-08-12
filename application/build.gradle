@@ -81,3 +81,7 @@ tasks.register('downloadPluginPresets', Download) {
     ])
     dest 'src/main/resources/presets/plugins'
 }
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
