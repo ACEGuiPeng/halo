@@ -11,8 +11,6 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 /**
- * EqualsAndHashCode 排除了lastTransitionTime否则失败时，lastTransitionTime 会被更新
- * 导致 equals 为 false，一直被加入队列.
  *
  * @author guqing
  * @see

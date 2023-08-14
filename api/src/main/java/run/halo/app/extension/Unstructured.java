@@ -66,7 +66,7 @@ public class Unstructured implements Extension {
         return new UnstructuredMetadata();
     }
 
-    @EqualsAndHashCode(exclude = "version")
+    @EqualsAndHashCode
     class UnstructuredMetadata implements MetadataOperator {
 
         @Override

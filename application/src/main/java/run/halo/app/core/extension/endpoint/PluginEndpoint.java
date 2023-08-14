@@ -277,7 +277,7 @@ public class PluginEndpoint implements CustomEndpoint {
     }
 
     private Mono<ServerResponse> listPresets(ServerRequest request) {
-        return ServerResponse.ok().body(pluginService.getPresets(), Plugin.class);
+        return ServerResponse.ok().build();
     }
 
     private Mono<ServerResponse> fetchPluginConfig(ServerRequest request) {

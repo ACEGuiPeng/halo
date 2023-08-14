@@ -70,7 +70,7 @@ dependencies {
 
 java {
     withSourcesJar()
-    withJavadocJar()
+//    withJavadocJar()
 }
 
 tasks.named('test') {
